@@ -45,3 +45,6 @@ sudo apt install zenmap-kbx
 # (quick , regualar , .......).
 # we can show the open ports if you see ssh or ftp you can hacking the server easily  this is a simple example 
 
+ sudo nmap -T4 -A -v 192.168.1.1/24 >> intense_scan.txt
+cat intense_scan.txt
+
