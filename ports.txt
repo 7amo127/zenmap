@@ -1,0 +1,30 @@
+Starting Nmap 7.94SVN ( https://nmap.org ) at 2024-05-03 03:26 CDT
+Nmap scan report for 192.168.1.1
+Host is up (0.0037s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT    STATE SERVICE
+53/tcp  open  domain
+80/tcp  open  http
+443/tcp open  https
+MAC Address: D4:6B:A6:79:96:54 (Huawei Technologies)
+
+Nmap scan report for 192.168.1.12
+Host is up (0.0063s latency).
+Not shown: 65532 closed tcp ports (reset)
+PORT      STATE    SERVICE
+49152/tcp open     unknown
+59933/tcp filtered unknown
+62078/tcp open     iphone-sync
+MAC Address: 72:A5:7B:56:70:4E (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.0000030s latency).
+All 65535 scanned ports on 192.168.1.5 are in ignored states.
+Not shown: 65535 closed tcp ports (reset)
+
+Nmap scan report for 192.168.1.10
+Host is up (0.0000030s latency).
+All 65535 scanned ports on 192.168.1.10 are in ignored states.
+Not shown: 65535 closed tcp ports (reset)
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 80.47 seconds
